@@ -29,6 +29,22 @@ header h1 {
   text-align: center;
 }
 
+table {
+  width: 60%;
+  border-collapse: collapse;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+th, td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+th {
+  background-color: #333;
+  color: white;
+}
+
 .cover-page {
   background: url('images/coverpage.jpg') no-repeat center center;
   background-size: cover;
