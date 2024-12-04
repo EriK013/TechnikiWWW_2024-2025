@@ -13,7 +13,6 @@ body {
   flex-direction: column;
 }
 
-/* Header Styles */
 header {
   display: flex;
   justify-content: center;
@@ -120,16 +119,6 @@ nav, .navbar {
   border-radius: 5px;
 }
 
-/* Planet Container */
-#subpage-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 20px;
-  max-width: 100%;
-  overflow: hidden;
-}
-
 /* Arrow Buttons */
 .arrow-btn {
   background-color: #001f3f;
@@ -151,6 +140,15 @@ nav, .navbar {
   text-align: center;
   margin: 0 10px;
   max-width: calc(100% - 100px);
+}
+
+#subpage-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  max-width: 100%;
+  overflow: hidden;
 }
 
 #subpage-image {
@@ -177,7 +175,6 @@ footer {
   margin-top: auto;
 }
 
-/* Mobile Responsive Styles */
 @media (max-width: 768px) {
   header {
     background-position: center;
